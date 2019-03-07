@@ -39,6 +39,9 @@ jspm_packages/
 # webstorm IDE auto create file
 .idea/
 
+# webpack build product
+dist/
+
 # TypeScript v1 declaration files
 typings/
 

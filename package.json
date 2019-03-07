@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/automaiton13/react-web/issues"
   },
-  "homepage": "https://github.com/automaiton13/react-web#readme"
+  "homepage": "https://github.com/automaiton13/react-web#readme",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
 }
