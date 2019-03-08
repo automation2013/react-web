@@ -9,15 +9,26 @@ react框架的前端开发工程
 2、npm run build 查看编译的产物
 
 
-涉及开源框架：
-1、webpack             打包工具（https://www.webpackjs.com/）
-2、webpack-cli         使用webpack时自动提示安装该插件
+## 涉及开源框架：
+### webpack
+|组件名|描述|参考|
+---|:--:|---:
+webpack | 打包工具 | https://www.webpackjs.com/
+webpack-cli | 使用webpack时自动提示安装该插件 | 
 
+### babel
+|组件名|描述|参考|
+---|:--:|---:
+@babel/core | babel核心库 | https://babel.docschina.org/docs/en/index.html
+2、babel-loader        babel需要的webpack的loader（https://babel.docschina.org/setup#installation）
+3、babel-loader        babel需要的webpack的loader(https://babel.docschina.org/setup#installation)
+4、@babel/preset-env   babel插件，转换ES2015+
+5、@babel/plugin-proposal-class-properties babel插件，编译Class
 
+### react
 3、react               react开源框架（https://react.docschina.org/）
 4、react-dom           react开源框架需要的（参考create-react-app: https://github.com/facebook/create-react-app）
 
-
-代码规范：
+# 代码规范：
 
 
