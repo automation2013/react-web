@@ -20,10 +20,9 @@ webpack-cli | 使用webpack时自动提示安装该插件 |
 |组件名|描述|参考|
 ---|:--:|---:
 @babel/core | babel核心库 | https://babel.docschina.org/docs/en/index.html
-babel-loader | babel需要的webpack的loader（https://babel.docschina.org/setup#installation）
-babel-loader | babel需要的webpack的loader(https://babel.docschina.org/setup#installation)
-@babel/preset-env | babel插件，转换ES2015+
-@babel/plugin-proposal-class-properties |  | https://babel.docschina.org/docs/en/plugins
+babel-loader | babel需要的webpack的loader | https://babel.docschina.org/setup#installation
+@babel/preset-env | babel插件，转换ES2015+ | https://babel.docschina.org/setup#installation
+@babel/plugin-proposal-class-properties | babel编译class-properties的插件 | https://babel.docschina.org/docs/en/plugins
 
 ### react
 |组件名|描述|参考|
