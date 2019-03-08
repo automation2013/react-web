@@ -1,0 +1,6 @@
+# Browsers that we support,used by: @babel/preset-env, autoprefixer, stylelint, eslint-plugin-compat and many others(https://babel.docschina.org/docs/en/babel-preset-env#browserslist-integration)
+>0.2%
+not dead
+not ie <= 10
+not op_mini all
+# maintained node versions
