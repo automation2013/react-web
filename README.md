@@ -20,14 +20,16 @@ webpack-cli | 使用webpack时自动提示安装该插件 |
 |组件名|描述|参考|
 ---|:--:|---:
 @babel/core | babel核心库 | https://babel.docschina.org/docs/en/index.html
-2、babel-loader        babel需要的webpack的loader（https://babel.docschina.org/setup#installation）
-3、babel-loader        babel需要的webpack的loader(https://babel.docschina.org/setup#installation)
-4、@babel/preset-env   babel插件，转换ES2015+
-5、@babel/plugin-proposal-class-properties babel插件，编译Class
+babel-loader | babel需要的webpack的loader（https://babel.docschina.org/setup#installation）
+babel-loader | babel需要的webpack的loader(https://babel.docschina.org/setup#installation)
+@babel/preset-env | babel插件，转换ES2015+
+@babel/plugin-proposal-class-properties |  | https://babel.docschina.org/docs/en/plugins
 
 ### react
-3、react               react开源框架（https://react.docschina.org/）
-4、react-dom           react开源框架需要的（参考create-react-app: https://github.com/facebook/create-react-app）
+|组件名|描述|参考|
+---|:--:|---:
+react | react开源框架 | https://react.docschina.org/
+react-dom | react开源框架需要的 | https://github.com/facebook/create-react-app
 
 # 代码规范：
 
