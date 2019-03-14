@@ -16,6 +16,12 @@ react框架的前端开发工程
 webpack | 打包工具 | https://www.webpackjs.com/
 webpack-cli | 使用webpack时自动提示安装该插件 | 安装webpack4后直接编译js文件，控制台会有提示
 
+#### webpack plugin
+|组件名|描述|参考|
+---|:--:|---:
+html-webpack-plugin | HTML模板，webpack的产物直接塞入模板 | https://www.webpackjs.com/plugins/
+
+
 ### babel
 |组件名|描述|参考|
 ---|:--:|---:
@@ -31,6 +37,4 @@ babel-loader | babel需要的webpack的loader | https://babel.docschina.org/setu
 react | react开源框架 | https://react.docschina.org/
 react-dom | react开源框架需要的 | https://github.com/facebook/create-react-app
 
-# 代码规范：
-
-
+## 代码规范：
