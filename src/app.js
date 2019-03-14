@@ -5,7 +5,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './src/pages/App';
+import App from './pages/App';
 
 ReactDOM.render(
     <App />,
