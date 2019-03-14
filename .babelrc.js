@@ -3,7 +3,7 @@ module.exports = {
       [
           "@babel/preset-env",
           {
-              "useBuiltIns": "entry", // https://babel.docschina.org/docs/en/babel-preset-env
+              "useBuiltIns": "usage", // https://babel.docschina.org/docs/en/babel-preset-env  https://babeljs.io/docs/en/babel-polyfill
           }
       ],
       "@babel/preset-react"

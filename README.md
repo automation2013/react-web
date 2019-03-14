@@ -30,6 +30,8 @@ babel-loader | babel需要的webpack的loader | https://babel.docschina.org/setu
 @babel/preset-env | babel插件，转换ES2015+ | https://babel.docschina.org/setup#installation
 @babel/preset-react | babel编译react的presets | https://babel.docschina.org/docs/en/presets
 @babel/plugin-proposal-class-properties | babel编译class-properties的plugins | https://babel.docschina.org/docs/en/plugins
+@babel/polyfill | This will emulate a full ES2015+ environment | https://babeljs.io/docs/en/babel-polyfill
+
 
 ### react
 |组件名|描述|参考|

@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/automaiton13/react-web#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.2.5",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
