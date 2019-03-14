@@ -5,6 +5,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import './styles/common.css';
+import './styles/common.scss';
+
 import App from './pages/App';
 
 ReactDOM.render(

@@ -16,6 +16,14 @@ react框架的前端开发工程
 webpack | 打包工具 | https://www.webpackjs.com/
 webpack-cli | 使用webpack时自动提示安装该插件 | 安装webpack4后直接编译js文件，控制台会有提示
 
+#### webpack LOADERS
+|组件名|描述|参考|
+---|:--:|---:
+style-loader | Adds CSS to the DOM by injecting a <style> tag | https://www.webpackjs.com/loaders/style-loader/
+css-loader | 参考style-loader | https://www.webpackjs.com/loaders/css-loader/
+sass-loader | Loads a SASS/SCSS file and compiles it to CSS. | https://www.webpackjs.com/loaders/sass-loader/
+node-sass | 参考sass-loader | sass-loader的安装一项中提示要安装这个loader | 
+
 #### webpack plugin
 |组件名|描述|参考|
 ---|:--:|---:
