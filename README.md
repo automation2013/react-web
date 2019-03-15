@@ -19,7 +19,7 @@ webpack-cli | 使用webpack时自动提示安装该插件 | 安装webpack4后直
 #### webpack LOADERS
 |组件名|描述|参考|
 ---|:--:|---:
-style-loader | Adds CSS to the DOM by injecting a <style> tag | https://www.webpackjs.com/loaders/style-loader/
+style-loader | Adds CSS to the DOM by injecting a style tag | https://www.webpackjs.com/loaders/style-loader/
 css-loader | 参考style-loader | https://www.webpackjs.com/loaders/css-loader/
 sass-loader | Loads a SASS/SCSS file and compiles it to CSS. | https://www.webpackjs.com/loaders/sass-loader/
 node-sass | 参考sass-loader | sass-loader的安装一项中提示要安装这个loader | 
@@ -28,8 +28,9 @@ node-sass | 参考sass-loader | sass-loader的安装一项中提示要安装这�
 |组件名|描述|参考|
 ---|:--:|---:
 html-webpack-plugin | HTML模板，webpack的产物直接塞入模板 | https://www.webpackjs.com/plugins/
-clean-webpack-plugin | A webpack plugin to remove/clean your build folder(s). | https://www.npmjs.com/package/clean-webpack-plugin
-extract-text-webpack-plugin | 从 bundle 中提取文本（CSS）到单独的文件*(这个用的是btea版，因为暂时还没正式版)* | https://www.webpackjs.com/plugins/extract-text-webpack-plugin/
+clean-webpack-plugin | A webpack plugin to remove/clean your build folder(s). | https://www.webpackjs.com/guides/output-management/
+extract-text-webpack-plugin | 从 bundle 中提取文本（CSS）到单独的文件 | https://www.webpackjs.com/plugins/extract-text-webpack-plugin/
+webpack-manifest-plugin | Webpack plugin for generating an asset manifest. | https://www.webpackjs.com/guides/output-management/
 
 ### babel
 |组件名|描述|参考|
@@ -49,3 +50,6 @@ react | react开源框架 | https://react.docschina.org/
 react-dom | react开源框架需要的 | https://github.com/facebook/create-react-app
 
 ## 代码规范：
+
+## 备注
+1. extract-text-webpack-plugin: 这个用的是btea版，因为当时还没正式版

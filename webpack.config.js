@@ -6,9 +6,11 @@
 const path = require('path');
 
 // plugins
-const HtmlWebpackPlugin = require('html-webpack-plugin'); // 简单创建 HTML 文件，用于服务器访问
+const webpack = require('webpack'); // 访问内置的插件
 const CleanWebpackPlugin = require('clean-webpack-plugin'); // A webpack plugin to remove/clean your build folder(s).
+const ManifestPlugin = require('webpack-manifest-plugin'); // Webpack plugin for generating an asset manifest.
 const ExtractTextPlugin = require('extract-text-webpack-plugin'); // 从 bundle 中提取文本（CSS）到单独的文件
+const HtmlWebpackPlugin = require('html-webpack-plugin'); // 简单创建 HTML 文件，用于服务器访问
 
 const config = {
     mode : 'development',
@@ -42,6 +44,7 @@ const config = {
     },
     plugins: [
         new CleanWebpackPlugin(),
+        new ManifestPlugin({ fileName: 'manifest.json', }),
         new ExtractTextPlugin({ filename: '[name].style.[id].[hash].css', }),
         new HtmlWebpackPlugin({ template: path.join(__dirname, './src/index.html'), filename: 'react.html', }),
     ],
