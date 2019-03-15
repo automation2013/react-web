@@ -29,6 +29,7 @@ node-sass | 参考sass-loader | sass-loader的安装一项中提示要安装这�
 ---|:--:|---:
 html-webpack-plugin | HTML模板，webpack的产物直接塞入模板 | https://www.webpackjs.com/plugins/
 clean-webpack-plugin | A webpack plugin to remove/clean your build folder(s). | https://www.npmjs.com/package/clean-webpack-plugin
+extract-text-webpack-plugin | 从 bundle 中提取文本（CSS）到单独的文件*(这个用的是btea版，因为暂时还没正式版)* | https://www.webpackjs.com/plugins/extract-text-webpack-plugin/
 
 ### babel
 |组件名|描述|参考|
