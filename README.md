@@ -42,6 +42,12 @@ babel-loader | babel需要的webpack的loader | https://babel.docschina.org/setu
 @babel/plugin-proposal-class-properties | babel编译class-properties的plugins | https://babel.docschina.org/docs/en/plugins
 @babel/polyfill | This will emulate a full ES2015+ environment | https://babeljs.io/docs/en/babel-polyfill
 
+### postcss
+|组件名|描述|参考|
+---|:--:|---:
+postcss | PostCSS 是一个允许使用 JS 插件转换样式的工具 | https://github.com/postcss/postcss/blob/HEAD/README-cn.md https://postcss.org/
+postcss-loader | postcss需要的webpack的loader | https://www.webpackjs.com/loaders/postcss-loader/
+autoprefixer | 添加了 vendor 浏览器前缀，它使用 Can I Use 上面的数据 | https://github.com/postcss/postcss/blob/HEAD/README-cn.md
 
 ### react
 |组件名|描述|参考|

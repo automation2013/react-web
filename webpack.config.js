@@ -32,6 +32,8 @@ const config = {
                     use     : [{
                         loader: 'css-loader', // 将 CSS 转化成 CommonJS 模块
                     }, {
+                        loader: 'postcss-loader', // CSS 预处理
+                    }, {
                         loader: 'sass-loader', // 将 Sass 编译成 CSS (@import "~bootstrap/dist/css/bootstrap";   ~告诉 webpack 它不是一个相对路径，这样就可以 import 导入 node_modules 目录里面的 sass 模块)
                     }],
                 }),
