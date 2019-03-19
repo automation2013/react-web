@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/automaiton13/react-web#readme",
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },

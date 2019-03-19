@@ -1,0 +1,11 @@
+/**
+ * @file 默认样式，屏蔽浏览器差异
+ * @author automation13 <1271547283@qq.com>
+ */
+
+// 引用开源库解决浏览器样式差异 (https://www.webpackjs.com/loaders/sass-loader/   https://github.com/necolas/normalize.css)
+@import "~normalize.css/normalize.css";
+@import "common";
+*{
+  box-sizing: border-box;
+}

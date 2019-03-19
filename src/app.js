@@ -5,7 +5,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import './styles/index.scss';
+import './styles/resets.scss';
 
 import App from './pages/App';
 

@@ -1,15 +1,10 @@
-*{
-    background-color: green;
-    border-radius: 2px;
-    h1{
-        text-align: center;
-        border-radius: 4px;
-    }
-    input{
-        &::placeholder {
-            color: gray;
-        }
-    }
-    appearance: none;
-    margin-inline: 10px 20px;
-}
+/**
+ * @file 全局公用的class
+ * @author automation13 <1271547283@qq.com>
+ */
+@import "variable";
+
+// demo，命名规范示例：以"co-"开头
+//.co-demo-font-color-red{
+//  color: red;
+//}
