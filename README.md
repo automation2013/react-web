@@ -48,6 +48,8 @@ babel-loader | babel需要的webpack的loader | https://babel.docschina.org/setu
 postcss | PostCSS 是一个允许使用 JS 插件转换样式的工具 | https://github.com/postcss/postcss/blob/HEAD/README-cn.md https://postcss.org/
 postcss-loader | postcss需要的webpack的loader | https://www.webpackjs.com/loaders/postcss-loader/
 autoprefixer | 添加了 vendor 浏览器前缀，它使用 Can I Use 上面的数据 | https://github.com/postcss/postcss/blob/HEAD/README-cn.md
+postcss-preset-env | 允许你使用未来的 CSS 特性 | https://github.com/postcss/postcss/blob/HEAD/README-cn.md
+cssnano | 压缩webpack打包生成的css文件 | https://github.com/postcss/postcss/blob/HEAD/README-cn.md
 
 ### react
 |组件名|描述|参考|

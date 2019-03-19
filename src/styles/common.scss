@@ -1,11 +1,15 @@
 *{
     background-color: green;
+    border-radius: 2px;
     h1{
         text-align: center;
+        border-radius: 4px;
     }
     input{
         &::placeholder {
             color: gray;
         }
     }
+    appearance: none;
+    margin-inline: 10px 20px;
 }
