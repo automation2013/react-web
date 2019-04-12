@@ -1,15 +1,16 @@
 # react-web
 react框架的前端开发工程
 
-工程搭建：
+## 工程搭建：
 
 
-工程启动：
+## 工程启动：
 1、查看node版本，确定使用V8及以上的版本
 2、npm run build 查看编译的产物
 
 
-## 涉及开源框架：
+## 涉及开源框架
+
 ### webpack
 |组件名|描述|参考|
 ---|:--:|---:
@@ -65,4 +66,4 @@ normalize.css | CSS resets，处理浏览器默认样式的差异 | https://gith
 ## 代码规范：
 
 ## 备注
-1. extract-text-webpack-plugin: 这个用的是btea版，因为当时还没正式版
+1. extract-text-webpack-plugin: 这个用的是btea版，因为引入这个(大版本号为4)时还没正式版
