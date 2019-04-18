@@ -21,7 +21,7 @@ const config = {
     output: {
         path    : path.join(__dirname, './dist'),
         filename: '[name].bundle.[id].[hash].js',
-        // publicPath: "http://cdn.example.com/assets/[hash]/", // 如果使用cdn和hash可以放开这段注释。（https://www.webpackjs.com/concepts/output/）
+        // publicPath: "http://cdn.example.com/assets/", // 如果使用cdn和hash可以放开这段注释。（https://www.webpackjs.com/concepts/output/）
     },
     module: {
         rules: [

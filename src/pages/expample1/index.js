@@ -7,9 +7,14 @@ import React, { Component } from 'react';
 import './index.scss';
 
 class Example1 extends Component {
+
+    showAlert = () => {
+        alert('这是个hollo world!')
+    }
+
     render() {
         return (
-            <div id="example1">
+            <div id="example1" onClick={this.showAlert}>
                 <h2 className="title">
                     Example1
                 </h2>
