@@ -13,10 +13,13 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin'); // 从 bundle 
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // 简单创建 HTML 文件，用于服务器访问
 
 const config = {
-    mode : 'development',
-    entry: {
-        app : path.join(__dirname, './src/app.js'),
-        test: path.join(__dirname, './src/test.js'),
+    mode   : 'development',
+    // webpack 的主目录
+    // entry 和 module.rules.loader 选项
+    context: __dirname,
+    entry  : {
+        app : './src/app.js',
+        test: './src/test.js',
     },
     output: {
         path    : path.join(__dirname, './dist'),
