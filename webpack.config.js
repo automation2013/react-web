@@ -23,7 +23,7 @@ const config = {
     },
     output: {
         path    : path.join(__dirname, './dist'),
-        filename: '[name].bundle.[id].[hash].js',
+        filename: '[hash]/[name].bundle.[id].js',
         // publicPath: "http://cdn.example.com/assets/", // 如果使用cdn和hash可以放开这段注释。（https://www.webpackjs.com/concepts/output/）
     },
     module: {
@@ -50,7 +50,7 @@ const config = {
     plugins: [
         new CleanWebpackPlugin(),
         new ManifestPlugin({ fileName: 'manifest.json', }),
-        new ExtractTextPlugin({ filename: '[name].style.[id].[hash].css', }),
+        new ExtractTextPlugin({ filename: '[hash]/[name].style.[id].css', }),
         new HtmlWebpackPlugin({ template: path.join(__dirname, './src/index.html'), filename: 'react.html', }),
     ],
 };
