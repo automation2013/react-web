@@ -14,12 +14,12 @@ class Example1 extends Component {
 
     render() {
         return (
-            <div id="example1" onClick={this.showAlert}>
+            <section id="example1" onClick={this.showAlert}>
                 <h2 className="title">
                     Example1
                 </h2>
                 <input placeholder="testStyle" style={{borderRadius: '11px', appearance: 'none'}} />
-            </div>
+            </section>
         );
     }
 }

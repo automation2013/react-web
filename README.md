@@ -32,6 +32,7 @@ html-webpack-plugin | HTML模板，webpack的产物直接塞入模板 | https://
 clean-webpack-plugin | A webpack plugin to remove/clean your build folder(s). | https://www.webpackjs.com/guides/output-management/
 extract-text-webpack-plugin | 从 bundle 中提取文本（CSS）到单独的文件 | https://www.webpackjs.com/plugins/extract-text-webpack-plugin/
 webpack-manifest-plugin | Webpack plugin for generating an asset manifest. | https://www.webpackjs.com/guides/output-management/
+webpack-dev-server | Use webpack with a development server that provides live reloading. | https://www.webpackjs.com/configuration/dev-server/
 
 ### babel
 |组件名|描述|参考|
