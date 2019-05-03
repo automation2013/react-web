@@ -6,10 +6,13 @@
 import React, { Component } from 'react';
 import './index.scss';
 
+import {store} from '../../redux/store';
+import {update} from '../../redux/createReducer';
+
 class Example1 extends Component {
 
     showAlert = () => {
-        alert('这是个hollo world!')
+        store.dispatch(update('example1', [], undefined))
     }
 
     render() {

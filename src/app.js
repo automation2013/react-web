@@ -5,8 +5,13 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+// 处理浏览器默认样式的差异
 import './styles/resets.scss';
 
+// 工程初始化
+import './init';
+
+// 组件
 import App from './pages/App';
 
 ReactDOM.render(

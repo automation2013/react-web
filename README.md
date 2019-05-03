@@ -58,11 +58,13 @@ cssnano | 压缩webpack打包生成的css文件 | https://github.com/postcss/pos
 ---|:--:|---:
 react | react开源框架 | https://react.docschina.org/
 react-dom | react开源框架需要的 | https://github.com/facebook/create-react-app### react
+redux | Redux 是负责组织 state 的工具 | http://cn.redux.js.org/
 
 ### 公共开源库
 |组件名|描述|参考|
 ---|:--:|---:
 normalize.css | CSS resets，处理浏览器默认样式的差异 | https://github.com/necolas/normalize.css
+lodash | JavaScript对原生方法封装和加强的开源库 | https://lodash.com/docs/4.17.11
 
 ## 代码规范：
 

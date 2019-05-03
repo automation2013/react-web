@@ -22,9 +22,12 @@
   },
   "homepage": "https://github.com/automaiton13/react-web#readme",
   "dependencies": {
+    "lodash": "^4.17.11",
     "normalize.css": "^8.0.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
