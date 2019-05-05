@@ -59,6 +59,9 @@ cssnano | 压缩webpack打包生成的css文件 | https://github.com/postcss/pos
 react | react开源框架 | https://react.docschina.org/
 react-dom | react开源框架需要的 | https://github.com/facebook/create-react-app### react
 redux | Redux 是负责组织 state 的工具 | http://cn.redux.js.org/
+react-router | 前端路由 | https://github.com/ReactTraining/react-router README.md中有官方文档
+react-router-dom | react-router官方推荐(提供BrowserRouter、HashRouter等) | https://reacttraining.com/react-router/web/guides/quick-start
+history | react-router推荐的history库 | https://github.com/ReactTraining/history
 
 ### 公共开源库
 |组件名|描述|参考|

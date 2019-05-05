@@ -12,7 +12,7 @@ import './styles/resets.scss';
 import './init';
 
 // 组件
-import App from './pages/App';
+import App from './router';
 
 ReactDOM.render(
     <App />,
