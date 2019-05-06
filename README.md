@@ -58,7 +58,7 @@ cssnano | 压缩webpack打包生成的css文件 | https://github.com/postcss/pos
 ---|:--:|---:
 react | react开源框架 | https://react.docschina.org/
 react-dom | react开源框架需要的 | https://github.com/facebook/create-react-app### react
-classnames | A simple javascript utility for conditionally joining classNames together | https://github.com/JedWatson/classnames
+classnames | 方便地合并classNames | https://github.com/JedWatson/classnames
 redux相关
 redux | Redux 是负责组织 state 的工具 | http://cn.redux.js.org/ http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html
 react-redux | Redux配套使用，将store挂在组件上 | http://cn.redux.js.org/docs/react-redux/ https://github.com/reduxjs/react-redux
