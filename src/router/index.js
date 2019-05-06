@@ -5,18 +5,25 @@
 import React, { Component } from 'react';
 import { Router } from 'react-router';
 import { Route } from "react-router-dom";
-import {customHistory} from './enhance-router';
+import { Provider } from 'react-redux';
 
-import {PageRoutes} from './PageRoutes';
+import { customHistory } from './enhance-router';
+import { PageRoutes } from './PageRoutes';
+import { store } from '../redux/store';
 
-function App() {
-    return (
-        <Router history={customHistory}>
-            <div>
-                <PageRoutes />
-            </div>
-        </Router>
-    );
+class App extends Component {
+
+    render() {
+        return (
+            <Provider store={store}>
+                <Router history={customHistory}>
+                    <div>
+                        <PageRoutes />
+                    </div>
+                </Router>
+            </Provider>
+        );
+    }
 }
 
 export default App;

@@ -5,8 +5,8 @@
 import { createReducer } from '../createReducer';
 
 const init = {
-    x: 'example1-123',
-    y: 'example1-456',
+    num1: 1,
+    num2: 1,
 };
 const example1 = createReducer('example1', init);
 

@@ -15,8 +15,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin'); // 简单创建 HTML �
 const config = {
     mode   : 'development',
     devtool: 'eval-source-map', // 生产环境要用这个值：'source-map'
-    // webpack 的主目录
-    // entry 和 module.rules.loader 选项
+    // webpack 的主目录 string（绝对路径！）
+    // entry 和 module.rules.loader 选项 相对于此目录解析
     context: __dirname,
     entry  : {
         app : './src/app.js',
