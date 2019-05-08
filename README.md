@@ -43,6 +43,8 @@ babel-loader | babel需要的webpack的loader | https://babel.docschina.org/setu
 @babel/preset-react | babel编译react的presets | https://babel.docschina.org/docs/en/presets
 @babel/plugin-proposal-class-properties | babel编译class-properties的plugins | https://babel.docschina.org/docs/en/plugins
 @babel/polyfill | This will emulate a full ES2015+ environment | https://babeljs.io/docs/en/babel-polyfill
+@babel/plugin-transform-runtime | 可以重复使用Babel注入的帮助程序代码来节省代码 | https://babeljs.io/docs/en/babel-plugin-transform-runtime
+@babel/runtime | https://babeljs.io/docs/en/babel-plugin-transform-runtime提示安装(配套@babel/plugin-transform-runtime) | https://babeljs.io/docs/en/babel-plugin-transform-runtime
 
 ### postcss
 |组件名|描述|参考|
