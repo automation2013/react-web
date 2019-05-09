@@ -60,6 +60,7 @@ cssnano | 压缩webpack打包生成的css文件 | https://github.com/postcss/pos
 ---|:--:|---:
 react | react开源框架 | https://react.docschina.org/
 react-dom | react开源框架需要的 | https://github.com/facebook/create-react-app### react
+prop-types | react的props的类型检查和默认值 | https://react.docschina.org/docs/typechecking-with-proptypes.html
 classnames | 方便地合并classNames | https://github.com/JedWatson/classnames
 redux相关
 redux | Redux 是负责组织 state 的工具 | http://cn.redux.js.org/ http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html
