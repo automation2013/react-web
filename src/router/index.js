@@ -15,13 +15,15 @@ class App extends Component {
 
     render() {
         return (
-            <Provider store={store}>
-                <Router history={customHistory}>
-                    <div>
-                        <PageRoutes />
-                    </div>
-                </Router>
-            </Provider>
+            <React.StrictMode>
+                <Provider store={store}>
+                    <Router history={customHistory}>
+                        <div>
+                            <PageRoutes />
+                        </div>
+                    </Router>
+                </Provider>
+            </React.StrictMode>
         );
     }
 }
