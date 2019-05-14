@@ -17,11 +17,13 @@ class App extends Component {
         return (
             <React.StrictMode>
                 <Provider store={store}>
-                    <Router history={customHistory}>
-                        <div>
+                    <div id="global-pages-container">
+                        <Router history={customHistory}>
                             <PageRoutes />
-                        </div>
-                    </Router>
+                        </Router>
+                    </div>
+                    {/* 非主业务流程的弹框建议单独渲染到新的DOM下，其他弹框可以接着往下写div元素 */}
+                    <div id="global-popup-bottom" />
                 </Provider>
             </React.StrictMode>
         );

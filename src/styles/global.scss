@@ -1,0 +1,19 @@
+/**
+ * @file 全局自定义样式，命名规范：以"global-"开头
+ * @author automation13 <1271547283@qq.com>
+ */
+
+#global-pages-container {
+  width: 100%;
+  height: 100%;
+}
+
+#global-popup-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  overflow: visible;
+  z-index: 10;
+}

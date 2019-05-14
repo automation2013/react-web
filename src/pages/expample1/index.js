@@ -12,6 +12,9 @@ import {store} from '../../redux/store';
 import {update} from '../../redux/createReducer';
 import {EnhanceRouter} from '../../router/enhance-router';
 
+// 组件
+import PopupBottom from '../../components/popup-bottom';
+
 // lodash
 import _get from 'lodash/get';
 
@@ -49,6 +52,12 @@ class Example1 extends Component {
         store.dispatch(updateStoreASync());
     }
 
+    showPopUp = () => {
+        PopupBottom.show({
+            componentShow: (<div style={{width: '100%', height: '200px', backgroundColor: 'red'}}>aaa</div>),
+            canClickMask: true,
+        })
+    }
     render() {
         const {example1 = {}} = this.props;
         const {num1, num2} = example1;
@@ -58,6 +67,7 @@ class Example1 extends Component {
                 <h2 className="title">
                     Example1
                 </h2>
+                <div onClick={this.showPopUp} className="popup-btn">弹框</div>
                 <div className={classnames({redStyle: num1 > 2})}>num1: {num1}</div>
                 <button  onClick={this.changeStoreSync}>同步更新store按钮</button>
                 <br/>

@@ -66,5 +66,5 @@ function enhanceClearLocalStorage(name) {
 export {
     enhanceSetLocalStorage, // 封装原生的localStorage.setItem方法
     enhanceGetLocalStorage, // 封装原生的localStorage.getItem方法
-    enhanceClearLocalStorage // 封装原生的localStorage.removeItem方法
+    enhanceClearLocalStorage, // 封装原生的localStorage.removeItem方法
 };

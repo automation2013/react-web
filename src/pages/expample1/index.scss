@@ -1,6 +1,12 @@
 #example1{
   .title{
     color: #1F7DFF;
+    padding: 20px 0;
+    margin: 0;
+  }
+  .popup-btn{
+    display: inline-block;
+    background-color: #1F7DFF;
   }
   .redStyle{
     color: red;
