@@ -9,6 +9,7 @@ $BACKGROUND_COLOR_OPACITY: 0.4; // 背景色透明度
   width: 100vw;
   height: 100vh;
   z-index: 1;
+  overflow-y: hidden;
   .popup-mask {
     position: absolute;
     width: 100%;
