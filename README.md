@@ -7,6 +7,7 @@ react框架的前端开发工程
 ## 工程启动：
 1、查看node版本，确定使用V8及以上的版本
 2、npm run build 查看编译的产物
+3、本地使用 nmp start 启动时访问地址为：http://localhost:3000/react.html
 
 
 ## 涉及开源框架
