@@ -55,7 +55,7 @@ postcss-loader | postcss需要的webpack的loader | https://www.webpackjs.com/lo
 autoprefixer | 添加了 vendor 浏览器前缀，它使用 Can I Use 上面的数据 | https://github.com/postcss/postcss/blob/HEAD/README-cn.md
 postcss-preset-env | 允许你使用未来的 CSS 特性 | https://github.com/postcss/postcss/blob/HEAD/README-cn.md
 cssnano | 压缩webpack打包生成的css文件 | https://github.com/postcss/postcss/blob/HEAD/README-cn.md
-postcss-px-to-viewport | px转换为vw，移动端适配 | https://github.com/evrone/postcss-px-to-viewport/blob/master/README_CN.md https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag#A_pixel_is_not_a_pixel
+postcss-px-to-viewport | px转换为vw，移动端适配 | https://github.com/evrone/postcss-px-to-viewport/blob/master/README_CN.md https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag#A_pixel_is_not_a_pixel https://www.quirksmode.org/mobile/viewports.html
 
 ### react
 |组件名|描述|参考|
