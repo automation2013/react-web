@@ -50,14 +50,15 @@ const config = {
     },
     plugins: [
         new CleanWebpackPlugin(),
-        new ManifestPlugin({ fileName: 'manifest.json', }),
-        new ExtractTextPlugin({ filename: '[hash]/[name].style.[id].css', }),
-        new HtmlWebpackPlugin({ template: path.join(__dirname, './src/index.html'), filename: 'react.html', }),
+        new ManifestPlugin({ fileName: 'manifest.json' }),
+        new ExtractTextPlugin({ filename: '[hash]/[name].style.[id].css' }),
+        new HtmlWebpackPlugin({ template: path.join(__dirname, './src/index.html'), filename: 'react.html' }),
     ],
     devServer: { // webpack-dev-server 配置
-        contentBase: path.join(__dirname, 'dist'),
-        compress   : true, // gzip
-        port       : 3000, // 端口号
+        disableHostCheck: true,
+        contentBase     : path.join(__dirname, 'dist'),
+        compress        : true, // gzip
+        port            : 3000, // 端口号
     },
 };
 

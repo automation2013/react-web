@@ -3,10 +3,28 @@
  * @author automation13 <1271547283@qq.com>
  */
 
+const pxtovw = require('postcss-px-to-viewport');
+
 module.exports = {
     plugins: [
         require('autoprefixer'),
         require('postcss-preset-env'),
         require('cssnano'),
+        pxtovw({
+            unitToConvert    : 'px',
+            viewportWidth    : 375,
+            unitPrecision    : 2,
+            propList         : ['*'],
+            viewportUnit     : 'vw',
+            fontViewportUnit : 'vw',
+            selectorBlackList: [],
+            minPixelValue    : 0,
+            mediaQuery       : false,
+            replace          : true,
+            exclude          : [],
+            landscape        : false,
+            landscapeUnit    : 'vw',
+            landscapeWidth   : 667,
+        }),
     ],
 };
