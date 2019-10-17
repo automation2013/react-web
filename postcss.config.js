@@ -11,7 +11,7 @@ module.exports = {
         require('postcss-preset-env'),
         require('cssnano'),
         pxtovw({
-            unitToConvert    : 'px',
+            unitToConvert    : 'px', // 对于不想转换的css长度可以使用"PX"
             viewportWidth    : 375,
             unitPrecision    : 2,
             propList         : ['*'],
