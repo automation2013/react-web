@@ -55,10 +55,17 @@ const config = {
         new HtmlWebpackPlugin({ template: path.join(__dirname, './src/index.html'), filename: 'react.html' }),
     ],
     devServer: { // webpack-dev-server 配置
-        disableHostCheck: true,
-        contentBase     : path.join(__dirname, 'dist'),
-        compress        : true, // gzip
-        port            : 3000, // 端口号
+        disableHostCheck  : true,
+        contentBase       : path.join(__dirname, 'dist'),
+        compress          : true, // gzip
+        port              : 3000, // 端口号
+        index             : 'react.html',
+        open              : true,
+        historyApiFallback: {
+            rewrites: [
+                { from: /^\/(?!api)[^/]*/i, to: '/react.html' }, // 排除 "/api/***"，这种ajax请求
+            ],
+        }, // https://www.webpackjs.com/configuration/dev-server/#devserver-historyapifallback
     },
 };
 
